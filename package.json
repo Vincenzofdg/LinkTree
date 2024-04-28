@@ -1,0 +1,22 @@
+{
+  "name": "linktree",
+  "description": "Vincenzo's LinkTree Version",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start:front": "cd frontend && npm start",
+    "compose": "docker-compose down && docker-compose up -d"
+  },
+  "keywords": [
+    "frontend",
+    "backend",
+    "full-stack",
+    "docker"
+  ],
+  "author": "Vincenzo F. Di Giacomo",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

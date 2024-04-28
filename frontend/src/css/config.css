@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+     background: -webkit-linear-gradient(21deg, rgb(143, 167, 196), rgb(34, 200, 148));
+     background: linear-gradient(21deg, rgb(143, 167, 196), rgb(34, 200, 148));
+}

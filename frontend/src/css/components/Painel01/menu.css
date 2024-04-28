@@ -1,0 +1,14 @@
+.painel01_menu {
+     @apply
+          w-full
+          flex
+          flex-grow
+}
+
+.painel01_menu_btn {
+     @apply
+          w-1/4
+          rounded-t-xl
+          hover:bg-black 
+          hover:bg-opacity-20
+}

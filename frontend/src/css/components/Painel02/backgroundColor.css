@@ -1,0 +1,12 @@
+.bg_color_container {
+     @apply 
+          flex 
+          flex-row;
+}
+
+.bg_color_input_format {
+     @apply 
+          w-[30px] 
+          h-[30px] 
+          rounded-full;
+}

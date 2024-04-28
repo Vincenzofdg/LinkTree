@@ -1,0 +1,22 @@
+.painel02_container {
+     @apply
+          h-screen 
+          w-2/6
+          bg-black 
+          bg-opacity-50 
+          pt-6 
+          pl-10 
+          pr-10 
+          rounded-tl-3xl 
+          rounded-bl-3xl 
+          flex 
+          flex-col 
+          items-start;
+}
+
+.painel02_content {
+     @apply 
+          w-full
+          flex-grow 
+          pt-6;
+}

@@ -1,0 +1,35 @@
+{
+     "name": "backend",
+     "description": "API for Vincenzo's LinkTree Version",
+     "private": true,
+     "version": "1.0.0",
+     "main": "index.js",
+     "scripts": {
+          "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
+          "start": "node src/server.js",
+          "dev": "nodemon --watch src -r dotenv/config src/server.js",
+          "drop": "npx sequelize-cli db:drop",
+          "seed": "npx sequelize-cli db:seed:all"
+     },
+     "keywords": [
+          "backend",
+          "express",
+          "sequelize",
+          "node"
+     ],
+     "author": "Vincenzo F. Di Giacomo",
+     "license": "ISC",
+     "dependencies": {
+          "express": "^4.18.2",
+          "express-async-errors": "^3.1.1",
+          "joi": "^17.10.2",
+          "jsonwebtoken": "^9.0.2",
+          "mysql2": "^3.6.1",
+          "sequelize": "^6.33.0",
+          "sequelize-cli": "^6.6.1"
+     },
+     "devDependencies": {
+          "dotenv": "^16.3.1",
+          "nodemon": "^3.0.1"
+     }
+}

@@ -1,0 +1,29 @@
+.painel01_shapes {
+     @apply 
+          flex
+          justify-around
+          items-center
+          w-full
+          h-1/6
+          cursor-pointer
+}
+
+.shapes_rectangle {
+     @apply
+          w-1/4
+          h-1/2
+}
+
+.shapes_cicle {
+     @apply
+          w-16 
+          h-16 
+          rounded-full
+}
+
+.shapes_rounded {
+     @apply
+          w-1/4 
+          h-1/2 
+          rounded-full
+}

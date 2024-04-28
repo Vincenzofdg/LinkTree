@@ -1,0 +1,17 @@
+{
+     "configurations": [
+          {
+               "name": "npm deguber",
+               "request": "launch",
+               "runtimeArgs": [
+                    "run-script",
+                    "dev"
+               ],
+               "runtimeExecutable": "npm",
+               "skipFiles": [
+                    "<node_internals>/**"
+               ],
+               "type": "node"
+          }
+     ]
+}

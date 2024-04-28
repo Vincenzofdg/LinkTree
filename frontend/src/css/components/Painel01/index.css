@@ -1,0 +1,31 @@
+.painel01_container {
+     @apply
+          w-2/6 
+          h-screen 
+          flex 
+          flex-col 
+          items-center 
+          bg-black 
+          bg-opacity-30 
+          rounded-tr-3xl 
+          rounded-br-3xl 
+          p-5
+}
+
+.painel01_upper {
+     @apply
+          w-full
+          flex
+          text-center
+}
+
+.painel01_content {
+     @apply
+          bg-black 
+          bg-opacity-10 
+          flex 
+          flex-col 
+          items-center 
+          flex-grow 
+          w-full
+}
